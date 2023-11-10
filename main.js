@@ -25,4 +25,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 followersElement.innerText = json.follwers;
             }
         })
+        try {
+            alert("Seja bem vindo ao perfil do GitHub o Anderson Casimiro! Cliqie em Ver no Github e saiba mais...");
+        }
+        catch(err) {
+            alert("Ocorreu um erro ao encontrar o perfil do Github");
+        }
 })
